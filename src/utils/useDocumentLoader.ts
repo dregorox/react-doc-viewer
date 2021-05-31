@@ -44,7 +44,7 @@ export const useDocumentLoader = (): {
             fileType: contentType || undefined,
           })
         );
-      });
+      }).catch(() => {});
 
       return () => {
         controller.abort();
