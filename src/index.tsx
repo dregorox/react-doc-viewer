@@ -1,4 +1,4 @@
-import React, { CSSProperties, FC } from "react";
+import { CSSProperties, FC } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { HeaderBar } from "./components/HeaderBar";
 import { ProxyRenderer } from "./components/ProxyRenderer";
@@ -10,7 +10,6 @@ import MSDocRenderer from "./plugins/msdoc";
 import MSGRenderer from "./plugins/msg";
 import PDFRenderer from "./plugins/pdf";
 import PNGRenderer from "./plugins/png";
-import TIFFRenderer from "./plugins/tiff";
 import TXTRenderer from "./plugins/txt";
 import { AppProvider } from "./state";
 import { defaultTheme } from "./theme";
@@ -73,6 +72,5 @@ export {
   MSGRenderer,
   PDFRenderer,
   PNGRenderer,
-  TIFFRenderer,
   TXTRenderer,
 };
