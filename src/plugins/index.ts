@@ -5,7 +5,6 @@ import MSDocRenderer from "./msdoc";
 import MSGRenderer from "./msg";
 import PDFRenderer from "./pdf";
 import PNGRenderer from "./png";
-import TIFFRenderer from "./tiff";
 import TXTRenderer from "./txt";
 
 export const DocViewerRenderers = [
@@ -16,6 +15,5 @@ export const DocViewerRenderers = [
   MSGRenderer,
   PDFRenderer,
   PNGRenderer,
-  TIFFRenderer,
   TXTRenderer,
 ];
