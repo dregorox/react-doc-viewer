@@ -1,4 +1,4 @@
-import React, { FC, useCallback } from "react";
+import { FC, useCallback } from "react";
 import styled, { keyframes } from "styled-components";
 import { setRendererRect } from "../state/actions";
 import { IStyledProps } from "../types";

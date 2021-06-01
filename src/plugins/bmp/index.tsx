@@ -1,4 +1,3 @@
-import React from "react";
 import { DocRenderer } from "../../types";
 import ImageProxyRenderer from "../image";
 

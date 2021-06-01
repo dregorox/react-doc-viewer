@@ -1,4 +1,4 @@
-import React, { FC, useContext } from "react";
+import { FC, useContext } from "react";
 import styled from "styled-components";
 import { Button } from "../../../components/common";
 import { IStyledProps } from "../../../types";

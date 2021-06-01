@@ -1,4 +1,4 @@
-import React, { FC, useContext, useEffect } from "react";
+import { FC, useContext, useEffect } from "react";
 import { Document } from "react-pdf";
 import styled from "styled-components";
 import { PDFContext } from "../../state";
